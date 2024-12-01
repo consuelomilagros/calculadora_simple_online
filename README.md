@@ -2,10 +2,15 @@
 👩‍💻 Proyecto front-end: Desarrollar una calculadora con funciones básicas (suma, resta, multiplicación, porcentajes) aplicando conceptos y nociones básicas de tecnologías tales como **HTML**, **CSS** y **JavaScript**. Asi mismo, en este proyecto añadiremos frameworks como **VUE.js** y **Bootstrap**. Adicionalmente, para este proyecto veremos como adaptar la pagina web a diferentes dispositivos móviles 💻📱 empleando el concepto de **Web Responsive**. 
 
 **Algunos conceptos básicos para entender los paradigmas del desarrollo/diseño web:**
+
 ➤*HTML:* es el lenguaje de marcado utilizado para estructurar el contenido de una página web. Define los elementos como encabezados, párrafos, enlaces, imágenes y otros componentes visuales.
+
 ➤*CSS:* se utiliza para dar estilo y diseño a los elementos HTML. Permite definir colores, fuentes, márgenes, tamaños y otros aspectos visuales de la página.
+
 ➤*JavaScript:* es un lenguaje de programación interpretado, lo que significa que el código se ejecuta directamente en el navegador del usuario en lugar de ser compilado antes de su ejecución.
+
 ➤*Bootstrap:* Bootstrap fue creado por *Twitter (ahora X)* y permite crear interfaces web con CSS y JavaScript, adaptando la interfaz del sitio web al tamaño del dispositivo en que se visualice. 
+
 ➤*Vue.js:* es un **framework** de *JavaScript* progresivo de **código abierto**. Se utiliza para desarrollar interfaces web interactivas y está diseñado para simplificar el desarrollo web.
 
 **Sitios donde poder comprender la lógica de JavaScript**:
