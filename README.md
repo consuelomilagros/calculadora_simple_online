@@ -14,26 +14,33 @@
 ➤*Vue.js:* es un **framework** de *JavaScript* progresivo de **código abierto**. Se utiliza para desarrollar interfaces web interactivas y está diseñado para simplificar el desarrollo web.
 
 **Sitios donde poder comprender la lógica de JavaScript**:
+
 ✔ https://www.w3schools.com/js/default.asp
+
 ✔ https://www.geeksforgeeks.org/javascript/?ref=outind
+
 ✔ https://developer.mozilla.org/es/docs/Web/JavaScript
 
 **Sitios donde poder comprender la lógica de HTML**:
+
 ✔ https://www.w3schools.com/html/default.asp
+
 ✔ https://www.geeksforgeeks.org/html-tutorial/?ref=outind
+
 ✔ https://www.freecodecamp.org/espanol/news/que-es-html-definicion-y-significado-de-lenguaje-de-marcado-de-hipertexto/
 
 **Sitios donde poder comprender la lógica de Bootstrap**:
+
 ✔ https://www.geeksforgeeks.org/bootstrap/?ref=outind
+
 ✔ https://www.w3schools.com/bootstrap/bootstrap_ver.asp
 
 **Sitios donde poder comprender la lógica de Vue.js**:
+
 ✔ https://www.geeksforgeeks.org/vue-js/
+
 ✔ https://www.w3schools.com/vue/index.php
 
 **Sitios donde poder comprender la lógica de CSS**:
+
 ✔ https://www.w3schools.com/css/default.asp
-
-
-
-
