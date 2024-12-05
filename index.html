@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora cientifica básica</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="https://static.vecteezy.com/system/resources/previews/015/123/653/non_2x/realistic-calculator-isolated-png.png">
+</head>
+<body>
+    <header>
+        <h1 class="titulo">Realice operaciones matemáticas básicas con la calculadora online</h1>
+    </header>
+    <div class="calculator">
+        <input type="text" id="display" placeholder="0" oninput="validateInput(this)">
+        <div class="buttons">
+            <button class="btn" onclick="clearDisplay()">C</button>
+            <button class="btn" onclick="appendToDisplay('7')">7</button>
+            <button class="btn" onclick="appendToDisplay('8')">8</button>
+            <button class="btn" onclick="appendToDisplay('9')">9</button>
+            <button class="btn" onclick="appendToDisplay('/')">/</button>
+            <button class="btn" onclick="appendToDisplay('4')">4</button>
+            <button class="btn" onclick="appendToDisplay('5')">5</button>
+            <button class="btn" onclick="appendToDisplay('6')">6</button>
+            <button class="btn" onclick="appendToDisplay('*')">*</button>
+            <button class="btn" onclick="appendToDisplay('1')">1</button>
+            <button class="btn" onclick="appendToDisplay('2')">2</button>
+            <button class="btn" onclick="appendToDisplay('3')">3</button>
+            <button class="btn" onclick="appendToDisplay('-')">-</button>
+            <button class="btn" onclick="appendToDisplay('0')">0</button>
+            <button class="btn" onclick="appendToDisplay('+')">+</button>
+            <button class="btn" onclick="appendToDisplay('%')"">%</button>
+            <button class="btn btn-advanced btn-square-root" onclick="calculateSquareRoot()">√</button>
+            <button class="btn btn-advanced btn-exponent" onclick="calculateExponent()">xⁿ</button>
+            <button class="btn btn-advanced" onclick="appendToDisplay('sin(')">sin</button>
+            <button class="btn btn-advanced" onclick="appendToDisplay('cos(')">cos</button>
+            <button class="btn btn-advanced" onclick="appendToDisplay('tan(')">tan</button>
+            <button class="btn btn-advanced" onclick="appendToDisplay('log(')">log</button>
+            <button class="btn" onclick="calculateResult()">=</button>
+        </div>
+    </div>    
+<!--Colocamos el archivo donde estas las funciones y variables de javascript para modificar nuestra calculadora-->
+    <script src="logica_calculadora.js"></script>
+    <footer class="social-footer">
+        <p class="footer-title">SEGUIME EN:</p>
+        <div class="social-icons">
+            <a href="https://x.com/fvckingmuggle" target="_blank" class="social-icon">
+                <img src="https://cdn-icons-png.flaticon.com/512/733/733579.png" alt="Twitter">
+            </a>
+            <a href="https://www.facebook.com/milagros.venencia.14/" target="_blank" class="social-icon">
+                <img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="Facebook">
+            </a>
+            <a href="https://instagram.com/femil4gros" target="_blank" class="social-icon">
+                <img src="https://cdn-icons-png.flaticon.com/512/733/733558.png" alt="Instagram">
+            </a>
+            <a href="https://github.com/consuelomilagros" target="_blank" class="social-icon">
+                <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub">
+            </a>
+            <a href="https://bsky.app/profile/fuckingmuggle.bsky.social" target="_blank" class="social-icon"> 
+                <img src="https://seeklogo.com/images/B/bluesky-logo-934E68F6EC-seeklogo.com.png"  alt="Bluesky">
+            </a>
+        </div>
+    </footer>
+</body>
+</html>
